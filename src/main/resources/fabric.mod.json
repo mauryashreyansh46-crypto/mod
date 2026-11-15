@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hackmenu",
+  "version": "${version}",
+  "name": "Hack Menu",
+  "description": "Press H for a menu: xray, night vision, effects, haste, 3x3 miner. Single player / own world.",
+  "authors": ["Shrey"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.shrey.hackmenu.HackMenu"],
+    "client": ["dev.shrey.hackmenu.HackMenuClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
